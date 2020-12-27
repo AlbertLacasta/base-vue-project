@@ -9,7 +9,7 @@ const routes: RouteConfig[] = [
         meta: { title: "Home", conditionalRoute:true },
         path: '/',
         name: WebPages.HOME,
-        component: () => import('@/main/pages/home/HomePage.vue')
+        component: () => import('@/main/home/HomePage.vue')
 
     }
 ];

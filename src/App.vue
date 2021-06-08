@@ -7,9 +7,8 @@
 </template>
 
 <script lang="ts">
-
 import {
-    defineComponent,
+	defineComponent,
 } from "@vue/composition-api";
 
 export default defineComponent({

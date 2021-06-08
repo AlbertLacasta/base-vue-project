@@ -7,13 +7,10 @@ import "@fortawesome/fontawesome-free/css/all.css"
 import "./plugins/CompositionApi";
 
 // Vue plugin
-import Vue from "vue"
+import Vue from "vue";
 
 // Vuetify plugin
 import vuetify from './plugins/vuetify';
-
-// Global vuex store
-import store from "./plugins/store";
 
 // Vue router
 import router from "./routes";
@@ -29,9 +26,9 @@ Vue.config.productionTip = false;
 
 // Start Vue
 new Vue({
+  el: "#app",
   vuetify,
   render: h => h(App),
   router,
-  store,
   i18n
 }).$mount("#app");
